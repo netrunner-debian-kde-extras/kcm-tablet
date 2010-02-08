@@ -1,0 +1,22 @@
+Source: kcm-tablet
+Section: kde
+Priority: extra
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: debhelper (>= 7), cmake, kdelibs5-dev, pkg-kde-tools (>= 0.5)
+Standards-Version: 3.8.3
+Homepage: http://gitorious.org/kcm_tablet
+
+Package: kcm-tablet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kcm module that implements a GUI for the Wacom Linux Drivers
+ KDE 4 KCModule
+ .
+ This module implements a GUI for the Wacom Linux Drivers and extends it
+ with profile support to handle different button / pen layouts per profile.
+ .
+ For hardware support have a look at http://www.linuxwacom.sourceforge.net
+ .
+ All tablets can be set up as long as they are found via xorg.conf or HAL 
+ configuration.
+

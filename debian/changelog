@@ -1,0 +1,5 @@
+kcm-tablet (1.1.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jan 2010 15:23:50 -0300

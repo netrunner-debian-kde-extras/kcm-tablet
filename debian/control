@@ -10,6 +10,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>
 Package: kde-config-tablet
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: ${shlibs:Recommends}
 Description: implements a KDE configuration GUI for the Wacom drivers
  KDE 4 KCModule
  .

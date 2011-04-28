@@ -7,6 +7,8 @@ Build-Depends: debhelper (>= 7.3.16), cmake, kdelibs5-dev, pkg-kde-tools (>= 0.6
 Standards-Version: 3.8.4
 Homepage: http://projects.kde.org/projects/extragear/base/wacomtablet
 Uploaders: Sune Vuorela <debian@pusling.com>
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kcm-tablet.git;a=summary
+Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kcm-tablet.git
 
 Package: kde-config-tablet
 Architecture: any

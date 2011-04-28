@@ -6,7 +6,8 @@ kcm-tablet (1.3.0~beta2-0r1) UNRELEASED; urgency=low
     - bump debhelper build-dependency to 7.3.16
     - bump pkg-kde-tools build-dependency to 0.6.2
     - use the kde addon in rules
-  * Add build-dependencies: libxi-dev, libxrandr-dev.
+  * Update debian/control:
+    - add build-dependencies: libxi-dev, libxrandr-dev.
   * Refresh patch 02_less_linkage.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Thu, 28 Apr 2011 17:55:07 +0200

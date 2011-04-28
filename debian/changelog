@@ -16,6 +16,8 @@ kcm-tablet (1.3.0~beta2-0r1) UNRELEASED; urgency=low
     - update the filename of the plasma widget when calling `dh_shlibdeps'
   * Refresh patch 02_less_linkage, and add DEP3 header to it.
   * Update copyright.
+  * Install the upstream README among the package docs (it contains instructions
+    on how to add new device information).
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Thu, 28 Apr 2011 17:55:07 +0200
 

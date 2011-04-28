@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 7.3.16), cmake, kdelibs5-dev, pkg-kde-tools (>= 0.6.2),
  libxi-dev, libxrandr-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.2
 Homepage: http://projects.kde.org/projects/extragear/base/wacomtablet
 Uploaders: Sune Vuorela <debian@pusling.com>
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kcm-tablet.git;a=summary

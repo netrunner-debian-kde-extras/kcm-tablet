@@ -1,10 +1,10 @@
 --- a/src/kcmodule/CMakeLists.txt
 +++ b/src/kcmodule/CMakeLists.txt
-@@ -45,7 +45,6 @@ kde4_add_plugin(kcm_tablet ${kcm_tablet_
- target_link_libraries( kcm_tablet  
+@@ -37,7 +37,6 @@
+ target_link_libraries( kcm_wacomtablet  
                         ${KDE4_KDECORE_LIBS}
                         ${KDE4_KDEUI_LIBS}
 -                       ${KDE4_KIO_LIBS}
- )
- 
- install(TARGETS kcm_tablet DESTINATION ${PLUGIN_INSTALL_DIR} )
+                        ${X11_X11_LIB}
+                        ${X11_Xinput_LIB}
+                        ${X11_LIBRARIES}

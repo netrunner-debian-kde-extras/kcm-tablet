@@ -1,3 +1,10 @@
+kcm-tablet (1.3.0~beta2-0r1) UNRELEASED; urgency=low
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Thu, 28 Apr 2011 17:55:07 +0200
+
 kcm-tablet (1.2.0-1) unstable; urgency=low
 
   * Initial release (Closes: #569708). Based on the brilliant work by

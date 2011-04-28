@@ -1,3 +1,8 @@
+Author: Sune Vuorela <sune@vuorela.dk>
+Description: Remove the unneeded linking against KIO.
+Last-Update: 2010-05-17
+Forwarded: no
+
 --- a/src/kcmodule/CMakeLists.txt
 +++ b/src/kcmodule/CMakeLists.txt
 @@ -37,7 +37,6 @@

@@ -10,6 +10,7 @@ kcm-tablet (1.3.0~beta2-0r1) UNRELEASED; urgency=low
     - update Homepage field
     - add Vcs-Git and Vcs-Browser fields
     - bump Standards-Version to 3.9.2, no changes required
+    - kde-config-tablet: recommend xserver-xorg-input-wacom (for `xsetwacom')
   * Upate debian/rules:
     - use the kde addon with `dh'
     - update the filename of the plasma widget when calling `dh_shlibdeps'

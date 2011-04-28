@@ -13,7 +13,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kcm-tablet.git
 Package: kde-config-tablet
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: ${shlibs:Recommends}
+Recommends: ${shlibs:Recommends}, xserver-xorg-input-wacom
 Description: implements a KDE configuration GUI for the Wacom drivers
  KDE 4 KCModule
  .

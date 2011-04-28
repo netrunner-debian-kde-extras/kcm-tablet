@@ -3,5 +3,4 @@ kcm-tablet (1.2.0-1) unstable; urgency=low
   * Initial release (Closes: #569708). Based on the brilliant work by
     Lisandro.
 
-
  -- Sune Vuorela <debian@pusling.com>  Mon, 17 May 2010 22:40:15 +0200

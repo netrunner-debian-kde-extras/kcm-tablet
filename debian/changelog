@@ -2,6 +2,7 @@ kcm-tablet (1.3.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer]
   * Add myself to Uploaders.
+  * Set DM-Upload-Allowed: yes.
 
   [ Pino Toscano ]
   * New upstream release:

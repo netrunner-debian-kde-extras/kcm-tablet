@@ -1,5 +1,8 @@
 kcm-tablet (1.3.0-1) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer]
+  * Add myself to Uploaders.
+
   [ Pino Toscano ]
   * New upstream release:
     - does not crash with Solid/KDE 4.6. (Closes: #624432)

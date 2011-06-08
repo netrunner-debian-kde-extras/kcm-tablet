@@ -1,6 +1,8 @@
 wacomtablet (1.3.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - Fixes crash in the kded module when a new table is connected
+      (Closes: #628144).
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Tue, 07 Jun 2011 22:02:04 -0300
 

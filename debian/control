@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.3.16), cmake, kdelibs5-dev, pkg-kde-tools (>= 0.6
 Standards-Version: 3.9.2
 Homepage: http://projects.kde.org/projects/extragear/base/wacomtablet
 DM-Upload-Allowed: yes
-Uploaders: Sune Vuorela <debian@pusling.com>, Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+Uploaders: Sune Vuorela <debian@pusling.com>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kcm-tablet.git;a=summary
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kcm-tablet.git
 

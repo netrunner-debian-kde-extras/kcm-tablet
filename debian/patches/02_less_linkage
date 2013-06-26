@@ -1,12 +1,12 @@
 Author: Sune Vuorela <sune@vuorela.dk>
 Description: Remove the unneeded linking against KIO.
-Last-Update: 2010-05-17
+Last-Update: 2013-06-24
 Forwarded: no
 
 --- a/src/kcmodule/CMakeLists.txt
 +++ b/src/kcmodule/CMakeLists.txt
-@@ -37,7 +37,6 @@
- target_link_libraries( kcm_wacomtablet  
+@@ -46,7 +46,6 @@
+                        wacom_common
                         ${KDE4_KDECORE_LIBS}
                         ${KDE4_KDEUI_LIBS}
 -                       ${KDE4_KIO_LIBS}

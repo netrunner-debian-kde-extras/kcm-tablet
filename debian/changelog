@@ -8,6 +8,7 @@ wacomtablet (2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Use canonical Vcs fields.
+  * Export flags to allow hardening of the binaries.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 26 Jun 2013 17:58:46 +0200
 

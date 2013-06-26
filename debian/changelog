@@ -2,6 +2,8 @@ wacomtablet (2.0-1) UNRELEASED; urgency=low
 
   [ Michał Zając ]
   * New upstream release
+  * Added xserver-xorg-input-wacom to Build-Depends due to upstream
+    requiring it
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 26 Jun 2013 17:58:46 +0200
 

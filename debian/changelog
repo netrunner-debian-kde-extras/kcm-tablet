@@ -1,11 +1,11 @@
-wacomtablet (2.0-2) UNRELEASED; urgency=low
+wacomtablet (2.0-2) unstable; urgency=low
 
   * Fix FTBFS due to KDE4_ENABLE_TESTS being ON since kdelibs 4.10
     (Closes: #718122):
     - Add xvfb, xauth and dbus-x11 as build dependencies to allow tests to run.
     - Override dh_auto_test to start the virtual X server and the dbus session.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 20 Aug 2013 18:54:21 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 20 Aug 2013 19:11:41 -0300
 
 wacomtablet (2.0-1) unstable; urgency=low
 

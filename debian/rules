@@ -13,3 +13,6 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
 
 override_dh_shlibdeps:
 	dh_shlibdeps -Xplasma_applet_wacomtabletsettings.so -- -dRecommends debian/kde-config-tablet/usr/lib/kde4/plasma_applet_wacomtabletsettings.so -dDepends
+
+override_dh_auto_test:
+	xvfb-run dbus-launch dh_auto_test

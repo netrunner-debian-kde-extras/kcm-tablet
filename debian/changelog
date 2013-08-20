@@ -1,3 +1,7 @@
+wacomtablet (2.0-2) UNRELEASED; urgency=low
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 20 Aug 2013 18:54:21 -0300
+
 wacomtablet (2.0-1) unstable; urgency=low
 
   [ Michał Zając ]

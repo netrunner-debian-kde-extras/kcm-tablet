@@ -1,6 +1,7 @@
 wacomtablet (2.0-2) UNRELEASED; urgency=low
 
-  * Fix FTBFS due to KDE4_ENABLE_TESTS being ON since kdelibs 4.10:
+  * Fix FTBFS due to KDE4_ENABLE_TESTS being ON since kdelibs 4.10
+    (Closes: #718122):
     - Add xvfb, xauth and dbus-x11 as build dependencies to allow tests to run.
     - Override dh_auto_test to start the virtual X server and the dbus session.
 
